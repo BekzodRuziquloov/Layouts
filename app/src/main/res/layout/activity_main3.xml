@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <View
+        android:id="@+id/view_1"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_x="100dp"
+        android:layout_y="40dp"
+        android:background="@color/purple_200"
+        />
+    <TextView
+        android:text="BUTTON 2\n(110:50)"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:layout_x="110dp"
+        android:layout_y="50dp"
+        android:background="#2196F3"
+        />
+    <View
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_x="250dp"
+        android:layout_y="260dp"
+        android:background="@color/purple_200"
+        />
+    <TextView
+    android:text="BUTTON 1\n(260:270)"
+    android:gravity="center"
+    android:textSize="25dp"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:layout_x="260dp"
+        android:layout_y="270dp"
+        android:background="#2196F3"
+        />
+    <View
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_x="100dp"
+        android:layout_y="500dp"
+        android:background="@color/purple_200"
+        />
+    <TextView
+    android:text="BUTTON 3 \n (110:510)"
+    android:gravity="center"
+    android:textSize="25dp"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:layout_x="110dp"
+        android:layout_y="510dp"
+        android:background="#2196F3"
+        />
+
+
+</AbsoluteLayout>

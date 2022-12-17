@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+        <TextView
+            android:text="Top\n Left"
+            android:textSize="30dp"
+            android:gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:background="@color/purple_200"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+            />
+    <TextView
+        android:text="Top\n Middle"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:background="@color/teal_700"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        />
+    <TextView
+        android:text="Top\n Right"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:background="@color/purple_200"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+
+        />
+
+    <TextView
+        android:text="Centre"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:id="@+id/view_center"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        android:layout_centerInParent="true"
+        android:background="@color/purple_200" />
+    <TextView
+        android:text="Left"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/view_center"
+        android:layout_alignParentStart="true"
+        android:background="@color/teal_700"
+
+
+        />
+    <TextView
+        android:text="Right"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/view_center"
+        android:layout_alignParentEnd="true"
+        android:background="@color/teal_700"
+
+
+        />
+    <TextView
+        android:text="Bottom of Screen"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/teal_700"
+
+
+        />
+
+
+</RelativeLayout>
